@@ -1,0 +1,945 @@
+25/07/17 11:31:58 INFO metastore: Trying to connect to metastore with URI thrift://bd-s4:9083
+25/07/17 11:31:58 INFO metastore: Connected to metastore.
+25/07/17 11:31:58 INFO metastore: Trying to connect to metastore with URI thrift://bd-s4:9083
+25/07/17 11:31:58 INFO metastore: Trying to connect to metastore with URI thrift://bd-s4:9083
+25/07/17 11:31:58 INFO metastore: Connected to metastore.
+25/07/17 11:31:58 INFO metastore: Trying to connect to metastore with URI thrift://bd-s4:9083
+25/07/17 11:31:58 INFO metastore: Trying to connect to metastore with URI thrift://bd-s4:9083
+25/07/17 11:31:58 INFO metastore: Connected to metastore.
+25/07/17 11:31:58 INFO metastore: Trying to connect to metastore with URI thrift://bd-s4:9083
+25/07/17 11:31:58 INFO metastore: Connected to metastore.
+25/07/17 11:31:58 INFO metastore: Connected to metastore.
+25/07/17 11:31:58 INFO metastore: Connected to metastore.
+25/07/17 11:31:59 INFO SessionState: Created local directory: /tmp/bceb2c45-325c-459e-8c44-757a39f52190_resources
+25/07/17 11:31:59 INFO SessionState: Created HDFS directory: /tmp/spark/root/bceb2c45-325c-459e-8c44-757a39f52190
+25/07/17 11:31:59 INFO SessionState: Created local directory: /tmp/root/bceb2c45-325c-459e-8c44-757a39f52190
+25/07/17 11:31:59 INFO SessionState: Created HDFS directory: /tmp/spark/root/bceb2c45-325c-459e-8c44-757a39f52190/_tmp_space.db
+25/07/17 11:31:59 INFO SparkContext: Running Spark version 2.3.2.3.1.5.0-152
+25/07/17 11:31:59 INFO SparkContext: Submitted application: pr_fix_acc_2025-07-16_210213
+25/07/17 11:31:59 INFO SecurityManager: Changing view acls to: root
+25/07/17 11:31:59 INFO SecurityManager: Changing modify acls to: root
+25/07/17 11:31:59 INFO SecurityManager: Changing view acls groups to: 
+25/07/17 11:31:59 INFO SecurityManager: Changing modify acls groups to: 
+25/07/17 11:31:59 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+25/07/17 11:31:59 INFO Utils: Successfully started service 'sparkDriver' on port 33489.
+25/07/17 11:31:59 INFO SparkEnv: Registering MapOutputTracker
+25/07/17 11:31:59 INFO SparkEnv: Registering BlockManagerMaster
+25/07/17 11:31:59 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+25/07/17 11:31:59 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+25/07/17 11:31:59 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-ecc01295-ba33-4374-ba5f-30ca6581d92a
+25/07/17 11:31:59 INFO MemoryStore: MemoryStore started with capacity 997.8 MB
+25/07/17 11:31:59 INFO SparkEnv: Registering OutputCommitCoordinator
+25/07/17 11:31:59 INFO SessionState: Created local directory: /tmp/6cecdd52-da7c-4259-93b0-02952f911aa6_resources
+25/07/17 11:31:59 INFO SessionState: Created HDFS directory: /tmp/spark/root/6cecdd52-da7c-4259-93b0-02952f911aa6
+25/07/17 11:31:59 INFO SessionState: Created local directory: /tmp/root/6cecdd52-da7c-4259-93b0-02952f911aa6
+25/07/17 11:31:59 INFO SessionState: Created HDFS directory: /tmp/spark/root/6cecdd52-da7c-4259-93b0-02952f911aa6/_tmp_space.db
+25/07/17 11:31:59 INFO log: Logging initialized @4306ms
+25/07/17 11:31:59 INFO SparkContext: Running Spark version 2.3.2.3.1.5.0-152
+25/07/17 11:31:59 INFO SparkContext: Submitted application: pr_fix_acc_2025-07-16_230215
+25/07/17 11:31:59 INFO Server: jetty-9.3.z-SNAPSHOT, build timestamp: 2018-06-05T18:11:56+01:00, git hash: 84205aa28f11a4f31f2a3b86d1bba2cc8ab69827
+25/07/17 11:31:59 INFO Server: Started @4419ms
+25/07/17 11:31:59 INFO SecurityManager: Changing view acls to: root
+25/07/17 11:31:59 INFO SecurityManager: Changing modify acls to: root
+25/07/17 11:31:59 INFO SecurityManager: Changing view acls groups to: 
+25/07/17 11:31:59 INFO SecurityManager: Changing modify acls groups to: 
+25/07/17 11:31:59 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+25/07/17 11:31:59 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+25/07/17 11:31:59 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+25/07/17 11:31:59 INFO AbstractConnector: Started ServerConnector@44aa2e13{HTTP/1.1,[http/1.1]}{0.0.0.0:4042}
+25/07/17 11:31:59 INFO Utils: Successfully started service 'SparkUI' on port 4042.
+25/07/17 11:31:59 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@446e7065{/jobs,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5fffb692{/jobs/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@48cb2d73{/jobs/job,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@31f77791{/jobs/job/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@552fee7a{/stages,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@548e43b1{/stages/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@67688110{/stages/stage,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@66e827a8{/stages/stage/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5bb911c1{/stages/pool,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6a55594b{/stages/pool/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@632b305d{/storage,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@44598ef7{/storage/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@57fdb8a4{/storage/rdd,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@17222c11{/storage/rdd/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2db15f70{/environment,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@25974207{/environment/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1f15e689{/executors,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@195113de{/executors/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3ebc955b{/executors/threadDump,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@21a46ff1{/executors/threadDump/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@11b5f4e2{/static,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@74c9e11{/,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@9fe720a{/api,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@8c12524{/jobs/job/kill,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@f723cdb{/stages/stage/kill,null,AVAILABLE,@Spark}
+25/07/17 11:32:00 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://bd-s2:4042
+25/07/17 11:32:00 INFO ConfiguredRMFailoverProxyProvider: Failing over to rm2
+25/07/17 11:32:00 INFO Client: Requesting a new application from cluster with 210 NodeManagers
+25/07/17 11:32:00 INFO Utils: Successfully started service 'sparkDriver' on port 33243.
+25/07/17 11:32:00 INFO SparkEnv: Registering MapOutputTracker
+25/07/17 11:32:00 INFO SparkEnv: Registering BlockManagerMaster
+25/07/17 11:32:00 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+25/07/17 11:32:00 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+25/07/17 11:32:00 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-dbd0fb48-966d-446b-b0a8-8dc5f5b2cf30
+25/07/17 11:32:00 INFO Configuration: found resource resource-types.xml at file:/etc/hadoop/3.1.5.0-152/0/resource-types.xml
+25/07/17 11:32:00 INFO MemoryStore: MemoryStore started with capacity 953.7 MB
+25/07/17 11:32:00 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (172032 MB per container)
+25/07/17 11:32:00 INFO Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+25/07/17 11:32:00 INFO Client: Setting up container launch context for our AM
+25/07/17 11:32:00 INFO Client: Setting up the launch environment for our AM container
+25/07/17 11:32:00 INFO Client: Preparing resources for our AM container
+25/07/17 11:32:00 INFO SparkEnv: Registering OutputCommitCoordinator
+25/07/17 11:32:00 INFO log: Logging initialized @5269ms
+25/07/17 11:32:00 INFO SessionState: Created local directory: /tmp/23fcfb25-7ed0-4caa-bb33-eaeb3b392c2c_resources
+25/07/17 11:32:00 INFO SessionState: Created HDFS directory: /tmp/spark/root/23fcfb25-7ed0-4caa-bb33-eaeb3b392c2c
+25/07/17 11:32:00 INFO SessionState: Created local directory: /tmp/root/23fcfb25-7ed0-4caa-bb33-eaeb3b392c2c
+25/07/17 11:32:00 INFO SessionState: Created HDFS directory: /tmp/spark/root/23fcfb25-7ed0-4caa-bb33-eaeb3b392c2c/_tmp_space.db
+25/07/17 11:32:00 INFO Server: jetty-9.3.z-SNAPSHOT, build timestamp: 2018-06-05T18:11:56+01:00, git hash: 84205aa28f11a4f31f2a3b86d1bba2cc8ab69827
+25/07/17 11:32:00 INFO Server: Started @5461ms
+25/07/17 11:32:01 INFO SparkContext: Running Spark version 2.3.2.3.1.5.0-152
+25/07/17 11:32:01 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+25/07/17 11:32:01 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+25/07/17 11:32:01 WARN Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+25/07/17 11:32:01 WARN Utils: Service 'SparkUI' could not bind on port 4043. Attempting port 4044.
+25/07/17 11:32:01 WARN Utils: Service 'SparkUI' could not bind on port 4044. Attempting port 4045.
+25/07/17 11:32:01 INFO SparkContext: Submitted application: pr_mob_acc_2025-07-16_220214
+25/07/17 11:32:01 INFO AbstractConnector: Started ServerConnector@5e1a986c{HTTP/1.1,[http/1.1]}{0.0.0.0:4045}
+25/07/17 11:32:01 INFO Utils: Successfully started service 'SparkUI' on port 4045.
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7f5614f9{/jobs,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3086f480{/jobs/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@126f8f24{/jobs/job,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@67688110{/jobs/job/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6d293993{/stages,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@475f5672{/stages/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@616a06e3{/stages/stage,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@632b305d{/stages/stage/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@44598ef7{/stages/pool,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@57fdb8a4{/stages/pool/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@17222c11{/storage,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2db15f70{/storage/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@25974207{/storage/rdd,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1f15e689{/storage/rdd/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@195113de{/environment,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3ebc955b{/environment/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@21a46ff1{/executors,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@11b5f4e2{/executors/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6bcae9{/executors/threadDump,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5aa781f2{/executors/threadDump/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO SecurityManager: Changing view acls to: root
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@58feb6b0{/static,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO SecurityManager: Changing modify acls to: root
+25/07/17 11:32:01 INFO SecurityManager: Changing view acls groups to: 
+25/07/17 11:32:01 INFO SecurityManager: Changing modify acls groups to: 
+25/07/17 11:32:01 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@118acf70{/,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@72557746{/api,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@11f23203{/jobs/job/kill,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@101bdd1c{/stages/stage/kill,null,AVAILABLE,@Spark}
+25/07/17 11:32:01 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://bd-s2:4045
+25/07/17 11:32:01 INFO ConfiguredRMFailoverProxyProvider: Failing over to rm2
+25/07/17 11:32:01 INFO Client: Requesting a new application from cluster with 210 NodeManagers
+25/07/17 11:32:01 INFO Utils: Successfully started service 'sparkDriver' on port 39657.
+25/07/17 11:32:01 INFO SparkEnv: Registering MapOutputTracker
+25/07/17 11:32:01 INFO Configuration: found resource resource-types.xml at file:/etc/hadoop/3.1.5.0-152/0/resource-types.xml
+25/07/17 11:32:01 INFO SparkEnv: Registering BlockManagerMaster
+25/07/17 11:32:01 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+25/07/17 11:32:01 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+25/07/17 11:32:02 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-7fb07689-af8a-4e80-9a5c-347ab186c9e4
+25/07/17 11:32:02 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (172032 MB per container)
+25/07/17 11:32:02 INFO Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+25/07/17 11:32:02 INFO Client: Setting up container launch context for our AM
+25/07/17 11:32:02 INFO Client: Setting up the launch environment for our AM container
+25/07/17 11:32:02 INFO MemoryStore: MemoryStore started with capacity 973.2 MB
+25/07/17 11:32:02 INFO Client: Preparing resources for our AM container
+25/07/17 11:32:02 INFO SparkEnv: Registering OutputCommitCoordinator
+25/07/17 11:32:02 INFO SessionState: Created local directory: /tmp/ae852589-d045-4c28-8e7c-29f75d9f2472_resources
+25/07/17 11:32:02 INFO log: Logging initialized @6995ms
+25/07/17 11:32:02 INFO SessionState: Created HDFS directory: /tmp/spark/root/ae852589-d045-4c28-8e7c-29f75d9f2472
+25/07/17 11:32:02 INFO SessionState: Created local directory: /tmp/root/ae852589-d045-4c28-8e7c-29f75d9f2472
+25/07/17 11:32:02 INFO SessionState: Created HDFS directory: /tmp/spark/root/ae852589-d045-4c28-8e7c-29f75d9f2472/_tmp_space.db
+25/07/17 11:32:02 INFO SparkContext: Running Spark version 2.3.2.3.1.5.0-152
+25/07/17 11:32:02 INFO SparkContext: Submitted application: pr_fix_acc_2025-07-16_220214
+25/07/17 11:32:02 INFO Server: jetty-9.3.z-SNAPSHOT, build timestamp: 2018-06-05T18:11:56+01:00, git hash: 84205aa28f11a4f31f2a3b86d1bba2cc8ab69827
+25/07/17 11:32:02 INFO SessionState: Created local directory: /tmp/91181cda-42a5-4178-8179-e432fed14e63_resources
+25/07/17 11:32:02 INFO SessionState: Created HDFS directory: /tmp/spark/root/91181cda-42a5-4178-8179-e432fed14e63
+25/07/17 11:32:02 INFO SessionState: Created local directory: /tmp/root/91181cda-42a5-4178-8179-e432fed14e63
+25/07/17 11:32:02 INFO Server: Started @7243ms
+25/07/17 11:32:02 INFO SecurityManager: Changing view acls to: root
+25/07/17 11:32:02 INFO SessionState: Created HDFS directory: /tmp/spark/root/91181cda-42a5-4178-8179-e432fed14e63/_tmp_space.db
+25/07/17 11:32:02 INFO SecurityManager: Changing modify acls to: root
+25/07/17 11:32:02 INFO SecurityManager: Changing view acls groups to: 
+25/07/17 11:32:02 INFO SecurityManager: Changing modify acls groups to: 
+25/07/17 11:32:02 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+25/07/17 11:32:02 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+25/07/17 11:32:02 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+25/07/17 11:32:02 WARN Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+25/07/17 11:32:02 WARN Utils: Service 'SparkUI' could not bind on port 4043. Attempting port 4044.
+25/07/17 11:32:02 WARN Utils: Service 'SparkUI' could not bind on port 4044. Attempting port 4045.
+25/07/17 11:32:02 WARN Utils: Service 'SparkUI' could not bind on port 4045. Attempting port 4046.
+25/07/17 11:32:02 WARN Utils: Service 'SparkUI' could not bind on port 4046. Attempting port 4047.
+25/07/17 11:32:02 WARN Utils: Service 'SparkUI' could not bind on port 4047. Attempting port 4048.
+25/07/17 11:32:02 WARN Utils: Service 'SparkUI' could not bind on port 4048. Attempting port 4049.
+25/07/17 11:32:02 WARN Utils: Service 'SparkUI' could not bind on port 4049. Attempting port 4050.
+25/07/17 11:32:02 INFO AbstractConnector: Started ServerConnector@4bf03fee{HTTP/1.1,[http/1.1]}{0.0.0.0:4050}
+25/07/17 11:32:02 INFO Utils: Successfully started service 'SparkUI' on port 4050.
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@73608eb0{/jobs,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@11c78080{/jobs/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@662be9f7{/jobs/job,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@66e827a8{/jobs/job/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5bb911c1{/stages,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6a55594b{/stages/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@632b305d{/stages/stage,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@25974207{/stages/stage/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1f15e689{/stages/pool,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@195113de{/stages/pool/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3ebc955b{/storage,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@21a46ff1{/storage/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@11b5f4e2{/storage/rdd,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6bcae9{/storage/rdd/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5aa781f2{/environment,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@58feb6b0{/environment/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@66d25ba9{/executors,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3830f918{/executors/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5efe47fd{/executors/threadDump,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@739831a4{/executors/threadDump/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO SparkContext: Running Spark version 2.3.2.3.1.5.0-152
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7e3236d{/static,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@11f23203{/,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@101bdd1c{/api,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2cfe272f{/jobs/job/kill,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2f95653f{/stages/stage/kill,null,AVAILABLE,@Spark}
+25/07/17 11:32:02 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://bd-s2:4050
+25/07/17 11:32:03 INFO SparkContext: Submitted application: pr_mob_acc_2025-07-16_230215
+25/07/17 11:32:03 INFO SessionState: Created local directory: /tmp/335f3b80-8a1d-40fc-a530-5584cbb3e14e_resources
+25/07/17 11:32:03 INFO SessionState: Created HDFS directory: /tmp/spark/root/335f3b80-8a1d-40fc-a530-5584cbb3e14e
+25/07/17 11:32:03 INFO SessionState: Created local directory: /tmp/root/335f3b80-8a1d-40fc-a530-5584cbb3e14e
+25/07/17 11:32:03 INFO SessionState: Created HDFS directory: /tmp/spark/root/335f3b80-8a1d-40fc-a530-5584cbb3e14e/_tmp_space.db
+25/07/17 11:32:03 INFO SparkContext: Running Spark version 2.3.2.3.1.5.0-152
+25/07/17 11:32:03 INFO SparkContext: Submitted application: pr_mob_acc_2025-07-16_210213
+25/07/17 11:32:03 INFO SecurityManager: Changing view acls to: root
+25/07/17 11:32:03 INFO SecurityManager: Changing modify acls to: root
+25/07/17 11:32:03 INFO SecurityManager: Changing view acls groups to: 
+25/07/17 11:32:03 INFO SecurityManager: Changing modify acls groups to: 
+25/07/17 11:32:03 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+25/07/17 11:32:03 INFO SecurityManager: Changing view acls to: root
+25/07/17 11:32:03 INFO SecurityManager: Changing modify acls to: root
+25/07/17 11:32:03 INFO SecurityManager: Changing view acls groups to: 
+25/07/17 11:32:03 INFO SecurityManager: Changing modify acls groups to: 
+25/07/17 11:32:03 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+25/07/17 11:32:03 INFO Client: Use hdfs cache file as spark.yarn.archive for HDP, hdfsCacheFile:hdfs://cbpcluster/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-yarn-archive.tar.gz
+25/07/17 11:32:03 INFO Client: Source and destination file systems are the same. Not copying hdfs://cbpcluster/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-yarn-archive.tar.gz
+25/07/17 11:32:03 INFO ConfiguredRMFailoverProxyProvider: Failing over to rm2
+25/07/17 11:32:03 INFO Client: Requesting a new application from cluster with 210 NodeManagers
+25/07/17 11:32:03 INFO Utils: Successfully started service 'sparkDriver' on port 40965.
+25/07/17 11:32:03 INFO Client: Distribute hdfs cache file as spark.sql.hive.metastore.jars for HDP, hdfsCacheFile:hdfs://cbpcluster/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-hive-archive.tar.gz
+25/07/17 11:32:03 INFO Client: Source and destination file systems are the same. Not copying hdfs://cbpcluster/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-hive-archive.tar.gz
+25/07/17 11:32:03 INFO SparkEnv: Registering MapOutputTracker
+25/07/17 11:32:03 INFO SparkEnv: Registering BlockManagerMaster
+25/07/17 11:32:03 INFO Configuration: found resource resource-types.xml at file:/etc/hadoop/3.1.5.0-152/0/resource-types.xml
+25/07/17 11:32:03 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+25/07/17 11:32:03 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+25/07/17 11:32:03 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-38c53a4a-6f9c-42b6-b138-922c43e36e86
+25/07/17 11:32:03 INFO MemoryStore: MemoryStore started with capacity 970.5 MB
+25/07/17 11:32:03 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (172032 MB per container)
+25/07/17 11:32:03 INFO Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+25/07/17 11:32:03 INFO Client: Setting up container launch context for our AM
+25/07/17 11:32:03 INFO Client: Setting up the launch environment for our AM container
+25/07/17 11:32:03 INFO Client: Preparing resources for our AM container
+25/07/17 11:32:03 INFO SparkEnv: Registering OutputCommitCoordinator
+25/07/17 11:32:03 INFO Client: Uploading resource file:/tmp/spark-f5364de5-4d31-4856-a860-4495e1e28e5a/__spark_conf__2090981986849397166.zip -> hdfs://cbpcluster/user/root/.sparkStaging/application_1750846152056_56222/__spark_conf__.zip
+25/07/17 11:32:04 INFO Utils: Successfully started service 'sparkDriver' on port 45953.
+25/07/17 11:32:04 INFO Utils: Successfully started service 'sparkDriver' on port 41981.
+25/07/17 11:32:04 INFO SparkEnv: Registering MapOutputTracker
+25/07/17 11:32:04 INFO SparkEnv: Registering MapOutputTracker
+25/07/17 11:32:04 INFO log: Logging initialized @8563ms
+25/07/17 11:32:04 INFO SparkEnv: Registering BlockManagerMaster
+25/07/17 11:32:04 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+25/07/17 11:32:04 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+25/07/17 11:32:04 INFO SparkEnv: Registering BlockManagerMaster
+25/07/17 11:32:04 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+25/07/17 11:32:04 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+25/07/17 11:32:04 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-af03f635-291c-42fd-bc7a-0e0d3d634d85
+25/07/17 11:32:04 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-ba6b463e-c515-4e7d-b92b-67f194082728
+25/07/17 11:32:04 INFO MemoryStore: MemoryStore started with capacity 938.7 MB
+25/07/17 11:32:04 INFO MemoryStore: MemoryStore started with capacity 997.8 MB
+25/07/17 11:32:04 INFO Server: jetty-9.3.z-SNAPSHOT, build timestamp: 2018-06-05T18:11:56+01:00, git hash: 84205aa28f11a4f31f2a3b86d1bba2cc8ab69827
+25/07/17 11:32:04 INFO Server: Started @8718ms
+25/07/17 11:32:04 INFO SparkEnv: Registering OutputCommitCoordinator
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4043. Attempting port 4044.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4044. Attempting port 4045.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4045. Attempting port 4046.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4046. Attempting port 4047.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4047. Attempting port 4048.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4048. Attempting port 4049.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4049. Attempting port 4050.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4050. Attempting port 4051.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4051. Attempting port 4052.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4052. Attempting port 4053.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4053. Attempting port 4054.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4054. Attempting port 4055.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4055. Attempting port 4056.
+25/07/17 11:32:04 INFO SparkEnv: Registering OutputCommitCoordinator
+25/07/17 11:32:04 ERROR SparkUI: Failed to bind SparkUI
+java.net.BindException: Address already in use: Service 'SparkUI' failed after 16 retries (starting from 4040)! Consider explicitly setting the appropriate port for the service 'SparkUI' (for example spark.ui.port for SparkUI) to an available port or increasing spark.port.maxRetries.
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:438)
+	at sun.nio.ch.Net.bind(Net.java:430)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.spark_project.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:351)
+	at org.spark_project.jetty.server.ServerConnector.open(ServerConnector.java:319)
+	at org.spark_project.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.spark_project.jetty.server.ServerConnector.doStart(ServerConnector.java:235)
+	at org.spark_project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.apache.spark.ui.JettyUtils$.org$apache$spark$ui$JettyUtils$$newConnector$1(JettyUtils.scala:352)
+	at org.apache.spark.ui.JettyUtils$.org$apache$spark$ui$JettyUtils$$httpConnect$1(JettyUtils.scala:381)
+	at org.apache.spark.ui.JettyUtils$$anonfun$7.apply(JettyUtils.scala:384)
+	at org.apache.spark.ui.JettyUtils$$anonfun$7.apply(JettyUtils.scala:384)
+	at org.apache.spark.util.Utils$$anonfun$startServiceOnPort$1.apply$mcVI$sp(Utils.scala:2275)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:160)
+	at org.apache.spark.util.Utils$.startServiceOnPort(Utils.scala:2267)
+	at org.apache.spark.ui.JettyUtils$.startJettyServer(JettyUtils.scala:384)
+	at org.apache.spark.ui.WebUI.bind(WebUI.scala:130)
+	at org.apache.spark.SparkContext$$anonfun$11.apply(SparkContext.scala:451)
+	at org.apache.spark.SparkContext$$anonfun$11.apply(SparkContext.scala:451)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:451)
+	at org.apache.spark.SparkContext$.getOrCreate(SparkContext.scala:2498)
+	at org.apache.spark.sql.SparkSession$Builder$$anonfun$7.apply(SparkSession.scala:934)
+	at org.apache.spark.sql.SparkSession$Builder$$anonfun$7.apply(SparkSession.scala:925)
+	at scala.Option.getOrElse(Option.scala:121)
+	at org.apache.spark.sql.SparkSession$Builder.getOrCreate(SparkSession.scala:925)
+	at org.apache.spark.sql.hive.thriftserver.SparkSQLEnv$.init(SparkSQLEnv.scala:48)
+	at org.apache.spark.sql.hive.thriftserver.SparkSQLCLIDriver.<init>(SparkSQLCLIDriver.scala:317)
+	at org.apache.spark.sql.hive.thriftserver.SparkSQLCLIDriver$.main(SparkSQLCLIDriver.scala:166)
+	at org.apache.spark.sql.hive.thriftserver.SparkSQLCLIDriver.main(SparkSQLCLIDriver.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.spark.deploy.JavaMainApplication.start(SparkApplication.scala:52)
+	at org.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:900)
+	at org.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:192)
+	at org.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:217)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:137)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+25/07/17 11:32:04 INFO DiskBlockManager: Shutdown hook called
+25/07/17 11:32:04 INFO ShutdownHookManager: Shutdown hook called
+25/07/17 11:32:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-afbfdd2b-9517-4dd2-9cbc-51c30e8afbd5
+25/07/17 11:32:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-dd730b77-92f3-4952-a282-e195fec1f4b1
+25/07/17 11:32:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-dd730b77-92f3-4952-a282-e195fec1f4b1/userFiles-36602626-acc5-4dd0-aeb6-993dcc55e9fe
+25/07/17 11:32:04 INFO SecurityManager: Changing view acls to: root
+25/07/17 11:32:04 INFO SecurityManager: Changing modify acls to: root
+25/07/17 11:32:04 INFO SecurityManager: Changing view acls groups to: 
+25/07/17 11:32:04 INFO SecurityManager: Changing modify acls groups to: 
+25/07/17 11:32:04 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+25/07/17 11:32:04 INFO Client: Submitting application application_1750846152056_56222 to ResourceManager
+25/07/17 11:32:04 INFO log: Logging initialized @8952ms
+25/07/17 11:32:04 INFO log: Logging initialized @8945ms
+25/07/17 11:32:04 INFO YarnClientImpl: Submitted application application_1750846152056_56222
+25/07/17 11:32:04 INFO SchedulerExtensionServices: Starting Yarn extension services with app application_1750846152056_56222 and attemptId None
+25/07/17 11:32:04 INFO Server: jetty-9.3.z-SNAPSHOT, build timestamp: 2018-06-05T18:11:56+01:00, git hash: 84205aa28f11a4f31f2a3b86d1bba2cc8ab69827
+25/07/17 11:32:04 INFO Server: jetty-9.3.z-SNAPSHOT, build timestamp: 2018-06-05T18:11:56+01:00, git hash: 84205aa28f11a4f31f2a3b86d1bba2cc8ab69827
+25/07/17 11:32:04 INFO Server: Started @9086ms
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+25/07/17 11:32:04 INFO Server: Started @9097ms
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4043. Attempting port 4044.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4044. Attempting port 4045.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4045. Attempting port 4046.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4046. Attempting port 4047.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4047. Attempting port 4048.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4048. Attempting port 4049.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4049. Attempting port 4050.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4050. Attempting port 4051.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4051. Attempting port 4052.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4052. Attempting port 4053.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4053. Attempting port 4054.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4054. Attempting port 4055.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4055. Attempting port 4056.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4043. Attempting port 4044.
+25/07/17 11:32:04 ERROR SparkUI: Failed to bind SparkUI
+java.net.BindException: Address already in use: Service 'SparkUI' failed after 16 retries (starting from 4040)! Consider explicitly setting the appropriate port for the service 'SparkUI' (for example spark.ui.port for SparkUI) to an available port or increasing spark.port.maxRetries.
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:438)
+	at sun.nio.ch.Net.bind(Net.java:430)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.spark_project.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:351)
+	at org.spark_project.jetty.server.ServerConnector.open(ServerConnector.java:319)
+	at org.spark_project.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.spark_project.jetty.server.ServerConnector.doStart(ServerConnector.java:235)
+	at org.spark_project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.apache.spark.ui.JettyUtils$.org$apache$spark$ui$JettyUtils$$newConnector$1(JettyUtils.scala:352)
+	at org.apache.spark.ui.JettyUtils$.org$apache$spark$ui$JettyUtils$$httpConnect$1(JettyUtils.scala:381)
+	at org.apache.spark.ui.JettyUtils$$anonfun$7.apply(JettyUtils.scala:384)
+	at org.apache.spark.ui.JettyUtils$$anonfun$7.apply(JettyUtils.scala:384)
+	at org.apache.spark.util.Utils$$anonfun$startServiceOnPort$1.apply$mcVI$sp(Utils.scala:2275)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:160)
+	at org.apache.spark.util.Utils$.startServiceOnPort(Utils.scala:2267)
+	at org.apache.spark.ui.JettyUtils$.startJettyServer(JettyUtils.scala:384)
+	at org.apache.spark.ui.WebUI.bind(WebUI.scala:130)
+	at org.apache.spark.SparkContext$$anonfun$11.apply(SparkContext.scala:451)
+	at org.apache.spark.SparkContext$$anonfun$11.apply(SparkContext.scala:451)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:451)
+	at org.apache.spark.SparkContext$.getOrCreate(SparkContext.scala:2498)
+	at org.apache.spark.sql.SparkSession$Builder$$anonfun$7.apply(SparkSession.scala:934)
+	at org.apache.spark.sql.SparkSession$Builder$$anonfun$7.apply(SparkSession.scala:925)
+	at scala.Option.getOrElse(Option.scala:121)
+	at org.apache.spark.sql.SparkSession$Builder.getOrCreate(SparkSession.scala:925)
+	at org.apache.spark.sql.hive.thriftserver.SparkSQLEnv$.init(SparkSQLEnv.scala:48)
+	at org.apache.spark.sql.hive.thriftserver.SparkSQLCLIDriver.<init>(SparkSQLCLIDriver.scala:317)
+	at org.apache.spark.sql.hive.thriftserver.SparkSQLCLIDriver$.main(SparkSQLCLIDriver.scala:166)
+	at org.apache.spark.sql.hive.thriftserver.SparkSQLCLIDriver.main(SparkSQLCLIDriver.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.spark.deploy.JavaMainApplication.start(SparkApplication.scala:52)
+	at org.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:900)
+	at org.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:192)
+	at org.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:217)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:137)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4044. Attempting port 4045.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4045. Attempting port 4046.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4046. Attempting port 4047.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4047. Attempting port 4048.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4048. Attempting port 4049.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4049. Attempting port 4050.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4050. Attempting port 4051.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4051. Attempting port 4052.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4052. Attempting port 4053.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4053. Attempting port 4054.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4054. Attempting port 4055.
+25/07/17 11:32:04 WARN Utils: Service 'SparkUI' could not bind on port 4055. Attempting port 4056.
+25/07/17 11:32:04 INFO DiskBlockManager: Shutdown hook called
+25/07/17 11:32:04 INFO ShutdownHookManager: Shutdown hook called
+25/07/17 11:32:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-a8df256b-0a41-44ea-9264-2e1beb777361
+25/07/17 11:32:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-8e99389c-78ea-46b4-9a1e-db357266e483
+25/07/17 11:32:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-a8df256b-0a41-44ea-9264-2e1beb777361/userFiles-02264aef-3118-4464-840b-1131827aee0f
+25/07/17 11:32:04 INFO Client: Use hdfs cache file as spark.yarn.archive for HDP, hdfsCacheFile:hdfs://cbpcluster/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-yarn-archive.tar.gz
+25/07/17 11:32:04 ERROR SparkUI: Failed to bind SparkUI
+java.net.BindException: Address already in use: Service 'SparkUI' failed after 16 retries (starting from 4040)! Consider explicitly setting the appropriate port for the service 'SparkUI' (for example spark.ui.port for SparkUI) to an available port or increasing spark.port.maxRetries.
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:438)
+	at sun.nio.ch.Net.bind(Net.java:430)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.spark_project.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:351)
+	at org.spark_project.jetty.server.ServerConnector.open(ServerConnector.java:319)
+	at org.spark_project.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.spark_project.jetty.server.ServerConnector.doStart(ServerConnector.java:235)
+	at org.spark_project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.apache.spark.ui.JettyUtils$.org$apache$spark$ui$JettyUtils$$newConnector$1(JettyUtils.scala:352)
+	at org.apache.spark.ui.JettyUtils$.org$apache$spark$ui$JettyUtils$$httpConnect$1(JettyUtils.scala:381)
+	at org.apache.spark.ui.JettyUtils$$anonfun$7.apply(JettyUtils.scala:384)
+	at org.apache.spark.ui.JettyUtils$$anonfun$7.apply(JettyUtils.scala:384)
+	at org.apache.spark.util.Utils$$anonfun$startServiceOnPort$1.apply$mcVI$sp(Utils.scala:2275)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:160)
+	at org.apache.spark.util.Utils$.startServiceOnPort(Utils.scala:2267)
+	at org.apache.spark.ui.JettyUtils$.startJettyServer(JettyUtils.scala:384)
+	at org.apache.spark.ui.WebUI.bind(WebUI.scala:130)
+	at org.apache.spark.SparkContext$$anonfun$11.apply(SparkContext.scala:451)
+	at org.apache.spark.SparkContext$$anonfun$11.apply(SparkContext.scala:451)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:451)
+	at org.apache.spark.SparkContext$.getOrCreate(SparkContext.scala:2498)
+	at org.apache.spark.sql.SparkSession$Builder$$anonfun$7.apply(SparkSession.scala:934)
+	at org.apache.spark.sql.SparkSession$Builder$$anonfun$7.apply(SparkSession.scala:925)
+	at scala.Option.getOrElse(Option.scala:121)
+	at org.apache.spark.sql.SparkSession$Builder.getOrCreate(SparkSession.scala:925)
+	at org.apache.spark.sql.hive.thriftserver.SparkSQLEnv$.init(SparkSQLEnv.scala:48)
+	at org.apache.spark.sql.hive.thriftserver.SparkSQLCLIDriver.<init>(SparkSQLCLIDriver.scala:317)
+	at org.apache.spark.sql.hive.thriftserver.SparkSQLCLIDriver$.main(SparkSQLCLIDriver.scala:166)
+	at org.apache.spark.sql.hive.thriftserver.SparkSQLCLIDriver.main(SparkSQLCLIDriver.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.spark.deploy.JavaMainApplication.start(SparkApplication.scala:52)
+	at org.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:900)
+	at org.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:192)
+	at org.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:217)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:137)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+25/07/17 11:32:04 INFO Client: Source and destination file systems are the same. Not copying hdfs://cbpcluster/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-yarn-archive.tar.gz
+25/07/17 11:32:04 INFO DiskBlockManager: Shutdown hook called
+25/07/17 11:32:04 INFO ShutdownHookManager: Shutdown hook called
+25/07/17 11:32:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-ef7f6936-749a-4841-9f2a-58685aa20cb9
+25/07/17 11:32:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-53ee3a84-fec9-4359-a867-2305bd0645cf/userFiles-cefc67eb-bfad-47b3-b3cd-64ece8dfd048
+25/07/17 11:32:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-53ee3a84-fec9-4359-a867-2305bd0645cf
+25/07/17 11:32:04 INFO Client: Distribute hdfs cache file as spark.sql.hive.metastore.jars for HDP, hdfsCacheFile:hdfs://cbpcluster/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-hive-archive.tar.gz
+25/07/17 11:32:04 INFO Client: Source and destination file systems are the same. Not copying hdfs://cbpcluster/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-hive-archive.tar.gz
+25/07/17 11:32:04 INFO Client: Uploading resource file:/tmp/spark-7933e68d-faa0-4182-8db0-15155145d62e/__spark_conf__1497132646404116008.zip -> hdfs://cbpcluster/user/root/.sparkStaging/application_1750846152056_56225/__spark_conf__.zip
+25/07/17 11:32:05 INFO SecurityManager: Changing view acls to: root
+25/07/17 11:32:05 INFO SecurityManager: Changing modify acls to: root
+25/07/17 11:32:05 INFO SecurityManager: Changing view acls groups to: 
+25/07/17 11:32:05 INFO SecurityManager: Changing modify acls groups to: 
+25/07/17 11:32:05 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+25/07/17 11:32:05 INFO Client: Submitting application application_1750846152056_56225 to ResourceManager
+25/07/17 11:32:05 INFO YarnClientImpl: Submitted application application_1750846152056_56225
+25/07/17 11:32:05 INFO SchedulerExtensionServices: Starting Yarn extension services with app application_1750846152056_56225 and attemptId None
+25/07/17 11:32:05 INFO Client: Use hdfs cache file as spark.yarn.archive for HDP, hdfsCacheFile:hdfs://cbpcluster/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-yarn-archive.tar.gz
+25/07/17 11:32:05 INFO Client: Source and destination file systems are the same. Not copying hdfs://cbpcluster/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-yarn-archive.tar.gz
+25/07/17 11:32:05 INFO Client: Distribute hdfs cache file as spark.sql.hive.metastore.jars for HDP, hdfsCacheFile:hdfs://cbpcluster/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-hive-archive.tar.gz
+25/07/17 11:32:05 INFO Client: Source and destination file systems are the same. Not copying hdfs://cbpcluster/hdp/apps/3.1.5.0-152/spark2/spark2-hdp-hive-archive.tar.gz
+25/07/17 11:32:05 INFO Client: Application report for application_1750846152056_56222 (state: ACCEPTED)
+25/07/17 11:32:05 INFO Client: 
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1752748324466
+	 final status: UNDEFINED
+	 tracking URL: http://bd-s12:8088/proxy/application_1750846152056_56222/
+	 user: root
+25/07/17 11:32:05 INFO Client: Uploading resource file:/tmp/spark-1cfd9612-e9bd-4fd7-90b8-63399f86d997/__spark_conf__4969575137187661287.zip -> hdfs://cbpcluster/user/root/.sparkStaging/application_1750846152056_56231/__spark_conf__.zip
+25/07/17 11:32:05 INFO SecurityManager: Changing view acls to: root
+25/07/17 11:32:05 INFO SecurityManager: Changing modify acls to: root
+25/07/17 11:32:05 INFO SecurityManager: Changing view acls groups to: 
+25/07/17 11:32:05 INFO SecurityManager: Changing modify acls groups to: 
+25/07/17 11:32:05 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+25/07/17 11:32:05 INFO Client: Submitting application application_1750846152056_56231 to ResourceManager
+25/07/17 11:32:05 INFO YarnClientImpl: Submitted application application_1750846152056_56231
+25/07/17 11:32:05 INFO SchedulerExtensionServices: Starting Yarn extension services with app application_1750846152056_56231 and attemptId None
+25/07/17 11:32:06 INFO Client: Application report for application_1750846152056_56225 (state: ACCEPTED)
+25/07/17 11:32:06 INFO Client: 
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1752748325259
+	 final status: UNDEFINED
+	 tracking URL: http://bd-s12:8088/proxy/application_1750846152056_56225/
+	 user: root
+25/07/17 11:32:06 INFO Client: Application report for application_1750846152056_56222 (state: ACCEPTED)
+25/07/17 11:32:06 INFO YarnClientSchedulerBackend: Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> bd-s3,bd-s12, PROXY_URI_BASES -> http://bd-s3:8088/proxy/application_1750846152056_56222,http://bd-s12:8088/proxy/application_1750846152056_56222, RM_HA_URLS -> bd-s3:8088,bd-s12:8088), /proxy/application_1750846152056_56222
+25/07/17 11:32:06 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /jobs, /jobs/json, /jobs/job, /jobs/job/json, /stages, /stages/json, /stages/stage, /stages/stage/json, /stages/pool, /stages/pool/json, /storage, /storage/json, /storage/rdd, /storage/rdd/json, /environment, /environment/json, /executors, /executors/json, /executors/threadDump, /executors/threadDump/json, /static, /, /api, /jobs/job/kill, /stages/stage/kill.
+25/07/17 11:32:06 INFO Client: Application report for application_1750846152056_56231 (state: ACCEPTED)
+25/07/17 11:32:06 INFO Client: 
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1752748325828
+	 final status: UNDEFINED
+	 tracking URL: http://bd-s12:8088/proxy/application_1750846152056_56231/
+	 user: root
+25/07/17 11:32:06 INFO YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as NettyRpcEndpointRef(spark-client://YarnAM)
+25/07/17 11:32:07 INFO Client: Application report for application_1750846152056_56225 (state: ACCEPTED)
+25/07/17 11:32:07 INFO Client: Application report for application_1750846152056_56222 (state: RUNNING)
+25/07/17 11:32:07 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 192.168.16.85
+	 ApplicationMaster RPC port: 0
+	 queue: default
+	 start time: 1752748324466
+	 final status: UNDEFINED
+	 tracking URL: http://bd-s12:8088/proxy/application_1750846152056_56222/
+	 user: root
+25/07/17 11:32:07 INFO YarnClientSchedulerBackend: Application application_1750846152056_56222 has started running.
+25/07/17 11:32:07 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 43929.
+25/07/17 11:32:07 INFO NettyBlockTransferService: Server created on bd-s2:43929
+25/07/17 11:32:07 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+25/07/17 11:32:07 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, bd-s2, 43929, None)
+25/07/17 11:32:07 INFO BlockManagerMasterEndpoint: Registering block manager bd-s2:43929 with 997.8 MB RAM, BlockManagerId(driver, bd-s2, 43929, None)
+25/07/17 11:32:07 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, bd-s2, 43929, None)
+25/07/17 11:32:07 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, bd-s2, 43929, None)
+25/07/17 11:32:07 INFO YarnClientSchedulerBackend: Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> bd-s3,bd-s12, PROXY_URI_BASES -> http://bd-s3:8088/proxy/application_1750846152056_56225,http://bd-s12:8088/proxy/application_1750846152056_56225, RM_HA_URLS -> bd-s3:8088,bd-s12:8088), /proxy/application_1750846152056_56225
+25/07/17 11:32:07 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /jobs, /jobs/json, /jobs/job, /jobs/job/json, /stages, /stages/json, /stages/stage, /stages/stage/json, /stages/pool, /stages/pool/json, /storage, /storage/json, /storage/rdd, /storage/rdd/json, /environment, /environment/json, /executors, /executors/json, /executors/threadDump, /executors/threadDump/json, /static, /, /api, /jobs/job/kill, /stages/stage/kill.
+25/07/17 11:32:07 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /metrics/json.
+25/07/17 11:32:07 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@70819ba8{/metrics/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:07 INFO YarnClientSchedulerBackend: Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> bd-s3,bd-s12, PROXY_URI_BASES -> http://bd-s3:8088/proxy/application_1750846152056_56231,http://bd-s12:8088/proxy/application_1750846152056_56231, RM_HA_URLS -> bd-s3:8088,bd-s12:8088), /proxy/application_1750846152056_56231
+25/07/17 11:32:07 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /jobs, /jobs/json, /jobs/job, /jobs/job/json, /stages, /stages/json, /stages/stage, /stages/stage/json, /stages/pool, /stages/pool/json, /storage, /storage/json, /storage/rdd, /storage/rdd/json, /environment, /environment/json, /executors, /executors/json, /executors/threadDump, /executors/threadDump/json, /static, /, /api, /jobs/job/kill, /stages/stage/kill.
+25/07/17 11:32:07 INFO Client: Application report for application_1750846152056_56231 (state: ACCEPTED)
+25/07/17 11:32:08 INFO YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as NettyRpcEndpointRef(spark-client://YarnAM)
+25/07/17 11:32:08 INFO YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as NettyRpcEndpointRef(spark-client://YarnAM)
+25/07/17 11:32:08 INFO Client: Application report for application_1750846152056_56225 (state: RUNNING)
+25/07/17 11:32:08 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 192.168.16.77
+	 ApplicationMaster RPC port: 0
+	 queue: default
+	 start time: 1752748325259
+	 final status: UNDEFINED
+	 tracking URL: http://bd-s12:8088/proxy/application_1750846152056_56225/
+	 user: root
+25/07/17 11:32:08 INFO YarnClientSchedulerBackend: Application application_1750846152056_56225 has started running.
+25/07/17 11:32:08 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 35309.
+25/07/17 11:32:08 INFO NettyBlockTransferService: Server created on bd-s2:35309
+25/07/17 11:32:08 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+25/07/17 11:32:08 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, bd-s2, 35309, None)
+25/07/17 11:32:08 INFO BlockManagerMasterEndpoint: Registering block manager bd-s2:35309 with 953.7 MB RAM, BlockManagerId(driver, bd-s2, 35309, None)
+25/07/17 11:32:08 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, bd-s2, 35309, None)
+25/07/17 11:32:08 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, bd-s2, 35309, None)
+25/07/17 11:32:08 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /metrics/json.
+25/07/17 11:32:08 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@a30dbc0{/metrics/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:08 INFO Client: Application report for application_1750846152056_56231 (state: RUNNING)
+25/07/17 11:32:08 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 192.168.16.51
+	 ApplicationMaster RPC port: 0
+	 queue: default
+	 start time: 1752748325828
+	 final status: UNDEFINED
+	 tracking URL: http://bd-s12:8088/proxy/application_1750846152056_56231/
+	 user: root
+25/07/17 11:32:08 INFO YarnClientSchedulerBackend: Application application_1750846152056_56231 has started running.
+25/07/17 11:32:08 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 34611.
+25/07/17 11:32:08 INFO NettyBlockTransferService: Server created on bd-s2:34611
+25/07/17 11:32:09 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+25/07/17 11:32:09 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, bd-s2, 34611, None)
+25/07/17 11:32:09 INFO BlockManagerMasterEndpoint: Registering block manager bd-s2:34611 with 973.2 MB RAM, BlockManagerId(driver, bd-s2, 34611, None)
+25/07/17 11:32:09 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, bd-s2, 34611, None)
+25/07/17 11:32:09 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, bd-s2, 34611, None)
+25/07/17 11:32:09 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /metrics/json.
+25/07/17 11:32:09 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@47772462{/metrics/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:09 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.194:33766) with ID 15
+25/07/17 11:32:09 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.34:50636) with ID 12
+25/07/17 11:32:09 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.124:57970) with ID 2
+25/07/17 11:32:09 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.174:52192) with ID 7
+25/07/17 11:32:09 INFO BlockManagerMasterEndpoint: Registering block manager bd-s184:33259 with 6.2 GB RAM, BlockManagerId(15, bd-s184, 33259, None)
+25/07/17 11:32:09 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.185:57144) with ID 13
+25/07/17 11:32:09 INFO BlockManagerMasterEndpoint: Registering block manager bd-s34:34013 with 6.2 GB RAM, BlockManagerId(12, bd-s34, 34013, None)
+25/07/17 11:32:09 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.37:36722) with ID 3
+25/07/17 11:32:09 INFO BlockManagerMasterEndpoint: Registering block manager bd-s114:46423 with 6.2 GB RAM, BlockManagerId(2, bd-s114, 46423, None)
+25/07/17 11:32:09 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.87:50384) with ID 6
+25/07/17 11:32:09 INFO BlockManagerMasterEndpoint: Registering block manager bd-s164:39765 with 6.2 GB RAM, BlockManagerId(7, bd-s164, 39765, None)
+25/07/17 11:32:09 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.202:41002) with ID 1
+25/07/17 11:32:09 INFO BlockManagerMasterEndpoint: Registering block manager bd-s175:44447 with 6.2 GB RAM, BlockManagerId(13, bd-s175, 44447, None)
+25/07/17 11:32:09 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.31:44176) with ID 9
+25/07/17 11:32:09 INFO BlockManagerMasterEndpoint: Registering block manager bd-s37:41995 with 6.2 GB RAM, BlockManagerId(3, bd-s37, 41995, None)
+25/07/17 11:32:09 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.127:57262) with ID 8
+25/07/17 11:32:09 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.121:53976) with ID 10
+25/07/17 11:32:09 INFO BlockManagerMasterEndpoint: Registering block manager bd-s87:42595 with 6.2 GB RAM, BlockManagerId(6, bd-s87, 42595, None)
+25/07/17 11:32:09 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.167:52238) with ID 16
+25/07/17 11:32:09 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.176:53754) with ID 14
+25/07/17 11:32:09 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.177:36288) with ID 11
+25/07/17 11:32:09 INFO BlockManagerMasterEndpoint: Registering block manager bd-s192:40461 with 6.2 GB RAM, BlockManagerId(1, bd-s192, 40461, None)
+25/07/17 11:32:09 INFO BlockManagerMasterEndpoint: Registering block manager bd-s31:44711 with 6.2 GB RAM, BlockManagerId(9, bd-s31, 44711, None)
+25/07/17 11:32:09 INFO BlockManagerMasterEndpoint: Registering block manager bd-s117:34557 with 6.2 GB RAM, BlockManagerId(8, bd-s117, 34557, None)
+25/07/17 11:32:09 INFO BlockManagerMasterEndpoint: Registering block manager bd-s111:32819 with 6.2 GB RAM, BlockManagerId(10, bd-s111, 32819, None)
+25/07/17 11:32:09 INFO YarnClientSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+25/07/17 11:32:09 INFO BlockManagerMasterEndpoint: Registering block manager bd-s166:35673 with 6.2 GB RAM, BlockManagerId(14, bd-s166, 35673, None)
+25/07/17 11:32:09 INFO BlockManagerMasterEndpoint: Registering block manager bd-s157:45877 with 6.2 GB RAM, BlockManagerId(16, bd-s157, 45877, None)
+25/07/17 11:32:09 INFO SharedState: loading hive config file: file:/etc/spark2/3.1.5.0-152/0/hive-site.xml
+25/07/17 11:32:09 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('/apps/spark/warehouse').
+25/07/17 11:32:09 INFO SharedState: Warehouse path is '/apps/spark/warehouse'.
+25/07/17 11:32:09 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /SQL.
+25/07/17 11:32:09 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5617168c{/SQL,null,AVAILABLE,@Spark}
+25/07/17 11:32:09 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /SQL/json.
+25/07/17 11:32:09 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@75da2db{/SQL/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:09 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /SQL/execution.
+25/07/17 11:32:09 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7b1559f1{/SQL/execution,null,AVAILABLE,@Spark}
+25/07/17 11:32:09 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /SQL/execution/json.
+25/07/17 11:32:09 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@79a68657{/SQL/execution/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:09 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /static/sql.
+25/07/17 11:32:09 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6e8aea7e{/static/sql,null,AVAILABLE,@Spark}
+25/07/17 11:32:09 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.8:42974) with ID 5
+25/07/17 11:32:09 INFO BlockManagerMasterEndpoint: Registering block manager bd-s167:38485 with 6.2 GB RAM, BlockManagerId(11, bd-s167, 38485, None)
+25/07/17 11:32:09 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.62:38810) with ID 4
+25/07/17 11:32:09 INFO HiveUtils: Initializing HiveMetastoreConnection version 3.0 using file:/usr/hdp/current/spark2-client/standalone-metastore/standalone-metastore-1.21.2.3.1.5.0-152-hive3.jar:file:/usr/hdp/current/spark2-client/standalone-metastore/standalone-metastore-1.21.2.3.1.5.0-152-hive3.jar
+25/07/17 11:32:09 INFO HiveConf: Found configuration file file:/usr/hdp/current/spark2-client/conf/hive-site.xml
+25/07/17 11:32:09 INFO BlockManagerMasterEndpoint: Registering block manager bd-s8:46811 with 6.2 GB RAM, BlockManagerId(5, bd-s8, 46811, None)
+25/07/17 11:32:09 INFO BlockManagerMasterEndpoint: Registering block manager bd-s62:46157 with 6.2 GB RAM, BlockManagerId(4, bd-s62, 46157, None)
+Hive Session ID = 55c2b7e4-63c4-48cb-8b0e-d18a3c582c64
+25/07/17 11:32:09 INFO SessionState: Hive Session ID = 55c2b7e4-63c4-48cb-8b0e-d18a3c582c64
+25/07/17 11:32:09 INFO SessionState: Created HDFS directory: /tmp/spark/root/55c2b7e4-63c4-48cb-8b0e-d18a3c582c64
+25/07/17 11:32:09 INFO SessionState: Created local directory: /tmp/root/55c2b7e4-63c4-48cb-8b0e-d18a3c582c64
+25/07/17 11:32:09 INFO SessionState: Created HDFS directory: /tmp/spark/root/55c2b7e4-63c4-48cb-8b0e-d18a3c582c64/_tmp_space.db
+25/07/17 11:32:09 INFO HiveClientImpl: Warehouse location for Hive client (version 3.0.0) is /apps/spark/warehouse
+25/07/17 11:32:10 INFO HiveMetaStoreClient: Trying to connect to metastore with URI thrift://bd-s4:9083
+25/07/17 11:32:10 INFO HiveMetaStoreClient: Opened a connection to metastore, current connections: 1
+25/07/17 11:32:10 INFO HiveMetaStoreClient: Connected to metastore.
+25/07/17 11:32:10 INFO RetryingMetaStoreClient: RetryingMetaStoreClient proxy=class org.apache.hadoop.hive.ql.metadata.SessionHiveMetaStoreClient ugi=root (auth:SIMPLE) retries=1 delay=5 lifetime=0
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.40:49538) with ID 1
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.5:47130) with ID 13
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.118:58690) with ID 10
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.56:44708) with ID 16
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.162:36988) with ID 2
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s40:46711 with 6.2 GB RAM, BlockManagerId(1, bd-s40, 46711, None)
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.196:44642) with ID 12
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.84:60868) with ID 8
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.30:51422) with ID 7
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.217:41450) with ID 11
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s5:37455 with 6.2 GB RAM, BlockManagerId(13, bd-s5, 37455, None)
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s56:36807 with 6.2 GB RAM, BlockManagerId(16, bd-s56, 36807, None)
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s108:38055 with 6.2 GB RAM, BlockManagerId(10, bd-s108, 38055, None)
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.205:46498) with ID 14
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.46:59000) with ID 10
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s30:44563 with 6.2 GB RAM, BlockManagerId(7, bd-s30, 44563, None)
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.155:45400) with ID 6
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s84:44003 with 6.2 GB RAM, BlockManagerId(8, bd-s84, 44003, None)
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.126:43198) with ID 15
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s152:45569 with 6.2 GB RAM, BlockManagerId(2, bd-s152, 45569, None)
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s186:33481 with 6.2 GB RAM, BlockManagerId(12, bd-s186, 33481, None)
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.15:58512) with ID 9
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.171:60220) with ID 1
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s207:33285 with 6.2 GB RAM, BlockManagerId(11, bd-s207, 33285, None)
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.186:34792) with ID 2
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s46:44181 with 6.2 GB RAM, BlockManagerId(10, bd-s46, 44181, None)
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.49:34102) with ID 16
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.140:44744) with ID 15
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s116:45375 with 6.2 GB RAM, BlockManagerId(15, bd-s116, 45375, None)
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.85:49062) with ID 9
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s195:46763 with 6.2 GB RAM, BlockManagerId(14, bd-s195, 46763, None)
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.43:59616) with ID 4
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.210:54738) with ID 3
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s145:46375 with 6.2 GB RAM, BlockManagerId(6, bd-s145, 46375, None)
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s161:42191 with 6.2 GB RAM, BlockManagerId(1, bd-s161, 42191, None)
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.146:59564) with ID 7
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s49:33817 with 6.2 GB RAM, BlockManagerId(16, bd-s49, 33817, None)
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.12:49486) with ID 8
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s15:35727 with 6.2 GB RAM, BlockManagerId(9, bd-s15, 35727, None)
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.93:39014) with ID 5
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.199:50296) with ID 6
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s85:46789 with 6.2 GB RAM, BlockManagerId(9, bd-s85, 46789, None)
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s176:44123 with 6.2 GB RAM, BlockManagerId(2, bd-s176, 44123, None)
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.25:45814) with ID 3
+25/07/17 11:32:10 INFO YarnClientSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.21:58154) with ID 5
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s130:36977 with 6.2 GB RAM, BlockManagerId(15, bd-s130, 36977, None)
+25/07/17 11:32:10 INFO SharedState: loading hive config file: file:/etc/spark2/3.1.5.0-152/0/hive-site.xml
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s12:43623 with 6.2 GB RAM, BlockManagerId(8, bd-s12, 43623, None)
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.67:47138) with ID 14
+25/07/17 11:32:10 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('/apps/spark/warehouse').
+25/07/17 11:32:10 INFO SharedState: Warehouse path is '/apps/spark/warehouse'.
+25/07/17 11:32:10 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /SQL.
+25/07/17 11:32:10 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6b15e68c{/SQL,null,AVAILABLE,@Spark}
+25/07/17 11:32:10 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /SQL/json.
+25/07/17 11:32:10 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@8dbf0f2{/SQL/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:10 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /SQL/execution.
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s43:46553 with 6.2 GB RAM, BlockManagerId(4, bd-s43, 46553, None)
+25/07/17 11:32:10 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@593f7d2e{/SQL/execution,null,AVAILABLE,@Spark}
+25/07/17 11:32:10 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /SQL/execution/json.
+25/07/17 11:32:10 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@59282dc6{/SQL/execution/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:10 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /static/sql.
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s200:37125 with 6.2 GB RAM, BlockManagerId(3, bd-s200, 37125, None)
+25/07/17 11:32:10 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@609ad016{/static/sql,null,AVAILABLE,@Spark}
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.208:34568) with ID 4
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s189:45507 with 6.2 GB RAM, BlockManagerId(6, bd-s189, 45507, None)
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s136:44873 with 6.2 GB RAM, BlockManagerId(7, bd-s136, 44873, None)
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.129:33406) with ID 11
+25/07/17 11:32:10 INFO HiveUtils: Initializing HiveMetastoreConnection version 3.0 using file:/usr/hdp/current/spark2-client/standalone-metastore/standalone-metastore-1.21.2.3.1.5.0-152-hive3.jar:file:/usr/hdp/current/spark2-client/standalone-metastore/standalone-metastore-1.21.2.3.1.5.0-152-hive3.jar
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s25:41353 with 6.2 GB RAM, BlockManagerId(3, bd-s25, 41353, None)
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s93:38129 with 6.2 GB RAM, BlockManagerId(5, bd-s93, 38129, None)
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.147:57680) with ID 12
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s21:35631 with 6.2 GB RAM, BlockManagerId(5, bd-s21, 35631, None)
+25/07/17 11:32:10 INFO YarnClientSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+25/07/17 11:32:10 INFO HiveConf: Found configuration file file:/usr/hdp/current/spark2-client/conf/hive-site.xml
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s198:34153 with 6.2 GB RAM, BlockManagerId(4, bd-s198, 34153, None)
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s67:38575 with 6.2 GB RAM, BlockManagerId(14, bd-s67, 38575, None)
+25/07/17 11:32:10 INFO SharedState: loading hive config file: file:/etc/spark2/3.1.5.0-152/0/hive-site.xml
+25/07/17 11:32:10 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('/apps/spark/warehouse').
+25/07/17 11:32:10 INFO SharedState: Warehouse path is '/apps/spark/warehouse'.
+25/07/17 11:32:10 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /SQL.
+25/07/17 11:32:10 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@541897c6{/SQL,null,AVAILABLE,@Spark}
+25/07/17 11:32:10 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /SQL/json.
+25/07/17 11:32:10 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1826475{/SQL/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:10 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /SQL/execution.
+25/07/17 11:32:10 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@8dbf0f2{/SQL/execution,null,AVAILABLE,@Spark}
+25/07/17 11:32:10 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /SQL/execution/json.
+25/07/17 11:32:10 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1d3546f9{/SQL/execution/json,null,AVAILABLE,@Spark}
+25/07/17 11:32:10 INFO JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /static/sql.
+25/07/17 11:32:10 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@42cf5a6f{/static/sql,null,AVAILABLE,@Spark}
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s119:39415 with 6.2 GB RAM, BlockManagerId(11, bd-s119, 39415, None)
+25/07/17 11:32:10 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.16.64:42156) with ID 13
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s137:39165 with 6.2 GB RAM, BlockManagerId(12, bd-s137, 39165, None)
+25/07/17 11:32:10 INFO HiveUtils: Initializing HiveMetastoreConnection version 3.0 using file:/usr/hdp/current/spark2-client/standalone-metastore/standalone-metastore-1.21.2.3.1.5.0-152-hive3.jar:file:/usr/hdp/current/spark2-client/standalone-metastore/standalone-metastore-1.21.2.3.1.5.0-152-hive3.jar
+25/07/17 11:32:10 INFO BlockManagerMasterEndpoint: Registering block manager bd-s64:40935 with 6.2 GB RAM, BlockManagerId(13, bd-s64, 40935, None)
+Hive Session ID = 0df7b79e-53f8-46d8-b8aa-0ee2cbb4b660
+25/07/17 11:32:10 INFO SessionState: Hive Session ID = 0df7b79e-53f8-46d8-b8aa-0ee2cbb4b660
+25/07/17 11:32:11 INFO HiveConf: Found configuration file file:/usr/hdp/current/spark2-client/conf/hive-site.xml
+25/07/17 11:32:11 INFO SessionState: Created HDFS directory: /tmp/spark/root/0df7b79e-53f8-46d8-b8aa-0ee2cbb4b660
+25/07/17 11:32:11 INFO SessionState: Created local directory: /tmp/root/0df7b79e-53f8-46d8-b8aa-0ee2cbb4b660
+25/07/17 11:32:11 INFO SessionState: Created HDFS directory: /tmp/spark/root/0df7b79e-53f8-46d8-b8aa-0ee2cbb4b660/_tmp_space.db
+25/07/17 11:32:11 INFO HiveClientImpl: Warehouse location for Hive client (version 3.0.0) is /apps/spark/warehouse
+Hive Session ID = a56a1c71-7776-41c5-af40-37af932d7f0e
+25/07/17 11:32:11 INFO SessionState: Hive Session ID = a56a1c71-7776-41c5-af40-37af932d7f0e
+25/07/17 11:32:11 INFO StateStoreCoordinatorRef: Registered StateStoreCoordinator endpoint
+25/07/17 11:32:11 INFO SessionState: Created HDFS directory: /tmp/spark/root/a56a1c71-7776-41c5-af40-37af932d7f0e
+25/07/17 11:32:11 INFO SessionState: Created local directory: /tmp/root/a56a1c71-7776-41c5-af40-37af932d7f0e
+25/07/17 11:32:11 INFO SessionState: Created HDFS directory: /tmp/spark/root/a56a1c71-7776-41c5-af40-37af932d7f0e/_tmp_space.db
+25/07/17 11:32:11 INFO HiveClientImpl: Warehouse location for Hive client (version 3.0.0) is /apps/spark/warehouse
+25/07/17 11:32:11 INFO HiveMetaStoreClient: Trying to connect to metastore with URI thrift://bd-s4:9083
+25/07/17 11:32:11 INFO HiveMetaStoreClient: Opened a connection to metastore, current connections: 1
+25/07/17 11:32:11 INFO HiveMetaStoreClient: Connected to metastore.
+25/07/17 11:32:11 INFO RetryingMetaStoreClient: RetryingMetaStoreClient proxy=class org.apache.hadoop.hive.ql.metadata.SessionHiveMetaStoreClient ugi=root (auth:SIMPLE) retries=1 delay=5 lifetime=0
+25/07/17 11:32:11 INFO HiveMetaStoreClient: Trying to connect to metastore with URI thrift://bd-s4:9083
+25/07/17 11:32:11 INFO HiveMetaStoreClient: Opened a connection to metastore, current connections: 1
+25/07/17 11:32:11 INFO HiveMetaStoreClient: Connected to metastore.
+25/07/17 11:32:11 INFO RetryingMetaStoreClient: RetryingMetaStoreClient proxy=class org.apache.hadoop.hive.ql.metadata.SessionHiveMetaStoreClient ugi=root (auth:SIMPLE) retries=1 delay=5 lifetime=0
+25/07/17 11:32:12 INFO StateStoreCoordinatorRef: Registered StateStoreCoordinator endpoint
+25/07/17 11:32:13 INFO StateStoreCoordinatorRef: Registered StateStoreCoordinator endpoint
+25/07/17 11:32:14 WARN Utils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+Error in query: Table or view not found: `v64_deye_dw_ods`.`ods_pr_mail_store`; line 15 pos 62;
+'Aggregate [pr固网关联准确率 AS cal_type#1, 2025-07-16 AS cal_day#2, 00-23 AS cal_hour#3, 210213 AS uparea_id#4, 'SUM('IF(('auth_account = 'account), 1, 0)) AS connect_account#5, sum(cast(1 as bigint)) AS total_account#6L, ('SUM('IF(('auth_account = 'account), 1, 0)) / sum(cast(1 as bigint))) AS acc_rate#7]
++- 'Filter ('rn = 1)
+   +- 'SubqueryAlias tmp
+      +- 'Project ['pr.strsrc_ip, 'pr.auth_account, 'pr.capture_time, 'radius.account, dense_rank() windowspecdefinition('pr.strsrc_ip, 'pr.auth_account, 'pr.capture_time, ('pr.capture_time - 'radius.capture_time) ASC NULLS FIRST, specifiedwindowframe(RowFrame, unboundedpreceding$(), currentrow$())) AS rn#0]
+         +- 'Filter ('pr.capture_time >= 'radius.capture_time)
+            +- 'Join Inner, ('pr.strsrc_ip = 'radius.ip)
+               :- 'SubqueryAlias pr
+               :  +- 'Union
+               :     :- 'Union
+               :     :  :- Union
+               :     :  :  :- Project [strsrc_ip#21, auth_account#18, capture_time#95L]
+               :     :  :  :  +- Filter ((((capture_day#99 = 2025-07-16) && ((capture_hour#100 >= 00) && (capture_hour#100 <= 23))) && isnotnull(auth_account#18)) && (NOT (auth_account#18 = ) && (uparea_id#43 = 210213)))
+               :     :  :  :     +- SubqueryAlias ods_pr_http_store
+               :     :  :  :        +- Relation[data_type#12,data_source#13,protocol_type#14,child_type#15,action#16,auth_type#17,auth_account#18,username#19,password#20,strsrc_ip#21,strdst_ip#22,src_port#23,dst_port#24,strsrc_ip_v6#25,strdst_ip_v6#26,src_port_v6#27,dst_port_v6#28,src_ip_area#29,dst_ip_area#30,host#31,device_id#32,trace_id#33,proxy_type#34,proxy_address#35,... 65 more fields] parquet
+               :     :  :  +- Project [strsrc_ip#112, auth_account#107, capture_time#236L]
+               :     :  :     +- Filter ((((capture_day#241 = 2025-07-16) && ((capture_hour#242 >= 00) && (capture_hour#242 <= 23))) && isnotnull(auth_account#107)) && (NOT (auth_account#107 = ) && (uparea_id#186 = 210213)))
+               :     :  :        +- SubqueryAlias ods_pr_im_store
+               :     :  :           +- Relation[data_type#101,data_source#102,protocol_type#103,child_type#104,action#105,auth_type#106,auth_account#107,proxy_type#108,proxy_address#109,proxy_provider#110,proxy_account#111,strsrc_ip#112,strdst_ip#113,src_port#114,dst_port#115,strsrc_ip_v6#116,strdst_ip_v6#117,src_port_v6#118,dst_port_v6#119,src_ip_area#120,dst_ip_area#121,host#122,from_id#123,from_nickname#124,... 118 more fields] parquet
+               :     :  +- 'Project ['strsrc_ip, 'auth_account, 'capture_time]
+               :     :     +- 'Filter (((('capture_day = 2025-07-16) && (('capture_hour >= 00) && ('capture_hour <= 23))) && isnotnull('auth_account)) && (NOT ('auth_account = ) && ('uparea_id = 210213)))
+               :     :        +- 'UnresolvedRelation `v64_deye_dw_ods`.`ods_pr_mail_store`
+               :     +- Project [strsrc_ip#253, auth_account#249, capture_time#315L]
+               :        +- Filter ((((capture_day#319 = 2025-07-16) && ((capture_hour#320 >= 00) && (capture_hour#320 <= 23))) && isnotnull(auth_account#249)) && (NOT (auth_account#249 = ) && (uparea_id#272 = 210213)))
+               :           +- SubqueryAlias ods_pr_ftp_store
+               :              +- Relation[data_type#243,data_source#244,protocol_type#245,child_type#246,action#247,auth_type#248,auth_account#249,command#250,content#251,stream_end_time#252L,strsrc_ip#253,strdst_ip#254,src_port#255,dst_port#256,strsrc_ip_v6#257,strdst_ip_v6#258,src_port_v6#259,dst_port_v6#260,src_ip_area#261,dst_ip_area#262,proxy_type#263,proxy_address#264,proxy_provider#265,proxy_account#266,... 54 more fields] parquet
+               +- SubqueryAlias radius
+                  +- Project [ip#322, account#321, capture_time#326L]
+                     +- Filter ((capture_day#329 = 2025-07-16) && ACTION#323 IN (login,logout))
+                        +- SubqueryAlias ods_fixnet_radius_store
+                           +- Relation[account#321,ip#322,action#323,mac#324,session_id#325,capture_time#326L,insert_time#327L,data_id#328,capture_day#329,capture_hour#330] parquet
+
+25/07/17 11:32:14 INFO AbstractConnector: Stopped Spark@44aa2e13{HTTP/1.1,[http/1.1]}{0.0.0.0:4042}
+25/07/17 11:32:14 INFO SparkUI: Stopped Spark web UI at http://bd-s2:4042
+25/07/17 11:32:14 INFO YarnClientSchedulerBackend: Interrupting monitor thread
+25/07/17 11:32:14 INFO YarnClientSchedulerBackend: Shutting down all executors
+25/07/17 11:32:14 INFO YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+25/07/17 11:32:14 INFO SchedulerExtensionServices: Stopping SchedulerExtensionServices
+(serviceOption=None,
+ services=List(),
+ started=false)
+25/07/17 11:32:14 INFO YarnClientSchedulerBackend: Stopped
+25/07/17 11:32:14 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+25/07/17 11:32:14 INFO MemoryStore: MemoryStore cleared
+25/07/17 11:32:14 INFO BlockManager: BlockManager stopped
+25/07/17 11:32:14 INFO BlockManagerMaster: BlockManagerMaster stopped
+25/07/17 11:32:14 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+25/07/17 11:32:14 INFO SparkContext: Successfully stopped SparkContext
+25/07/17 11:32:14 INFO ShutdownHookManager: Shutdown hook called
+25/07/17 11:32:14 INFO ShutdownHookManager: Deleting directory /tmp/spark-f5364de5-4d31-4856-a860-4495e1e28e5a
+25/07/17 11:32:14 INFO ShutdownHookManager: Deleting directory /tmp/spark-dc724a0b-d8ba-4226-aea6-7b1e26c2f7c3
+25/07/17 11:32:17 WARN Utils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+Error in query: Table or view not found: `v64_deye_dw_ods`.`ods_pr_mail_store`; line 15 pos 72;
+'Aggregate [pr移网关联准确率 AS cal_type#3, 2025-07-16 AS cal_day#4, 00-23 AS cal_hour#5, 220214 AS uparea_id#6, 'SUM('if(('calling_station_id = 'auth_account), 1, 0)) AS connect_account#7, sum(cast(1 as bigint)) AS total_account#8L, ('SUM('if(('calling_station_id = 'auth_account), 1, 0)) / sum(cast(1 as bigint))) AS acc_rate#9]
++- 'Filter ('rn = 1)
+   +- 'SubqueryAlias tmp
+      +- 'Project ['pr.strsrc_ip, 'pr.auth_account, 'pr.capture_time, 'radius.calling_station_id, dense_rank() windowspecdefinition('pr.strsrc_ip, 'pr.auth_account, 'pr.capture_time, ('pr.capture_time - 'radius.capture_time) ASC NULLS FIRST, specifiedwindowframe(RowFrame, unboundedpreceding$(), currentrow$())) AS rn#2]
+         +- 'Filter ('pr.capture_time >= 'radius.capture_time)
+            +- 'Join Inner, ((('pr.strsrc_ip = 'radius.internet_ip) && ('pr.src_port >= 'start_port)) && ('pr.src_port <= 'end_port))
+               :- 'SubqueryAlias pr
+               :  +- 'Union
+               :     :- 'Union
+               :     :  :- Union
+               :     :  :  :- Project [strsrc_ip#23, auth_account#20, src_port#25, capture_time#97L]
+               :     :  :  :  +- Filter (((capture_day#101 = 2025-07-16) && ((capture_hour#102 >= 00) && (capture_hour#102 <= 23))) && (auth_account#20 LIKE 213% && (uparea_id#45 = 220214)))
+               :     :  :  :     +- SubqueryAlias ods_pr_http_store
+               :     :  :  :        +- Relation[data_type#14,data_source#15,protocol_type#16,child_type#17,action#18,auth_type#19,auth_account#20,username#21,password#22,strsrc_ip#23,strdst_ip#24,src_port#25,dst_port#26,strsrc_ip_v6#27,strdst_ip_v6#28,src_port_v6#29,dst_port_v6#30,src_ip_area#31,dst_ip_area#32,host#33,device_id#34,trace_id#35,proxy_type#36,proxy_address#37,... 65 more fields] parquet
+               :     :  :  +- Project [strsrc_ip#114, auth_account#109, src_port#116, capture_time#238L]
+               :     :  :     +- Filter (((capture_day#243 = 2025-07-16) && ((capture_hour#244 >= 00) && (capture_hour#244 <= 23))) && (auth_account#109 LIKE 213% && (uparea_id#188 = 220214)))
+               :     :  :        +- SubqueryAlias ods_pr_im_store
+               :     :  :           +- Relation[data_type#103,data_source#104,protocol_type#105,child_type#106,action#107,auth_type#108,auth_account#109,proxy_type#110,proxy_address#111,proxy_provider#112,proxy_account#113,strsrc_ip#114,strdst_ip#115,src_port#116,dst_port#117,strsrc_ip_v6#118,strdst_ip_v6#119,src_port_v6#120,dst_port_v6#121,src_ip_area#122,dst_ip_area#123,host#124,from_id#125,from_nickname#126,... 118 more fields] parquet
+               :     :  +- 'Project ['strsrc_ip, 'auth_account, 'src_port, 'capture_time]
+               :     :     +- 'Filter ((('capture_day = 2025-07-16) && (('capture_hour >= 00) && ('capture_hour <= 23))) && ('auth_account LIKE 213% && ('uparea_id = 220214)))
+               :     :        +- 'UnresolvedRelation `v64_deye_dw_ods`.`ods_pr_mail_store`
+               :     +- Project [strsrc_ip#255, auth_account#251, src_port#257, capture_time#317L]
+               :        +- Filter (((capture_day#321 = 2025-07-16) && ((capture_hour#322 >= 00) && (capture_hour#322 <= 23))) && (auth_account#251 LIKE 213% && (uparea_id#274 = 220214)))
+               :           +- SubqueryAlias ods_pr_ftp_store
+               :              +- Relation[data_type#245,data_source#246,protocol_type#247,child_type#248,action#249,auth_type#250,auth_account#251,command#252,content#253,stream_end_time#254L,strsrc_ip#255,strdst_ip#256,src_port#257,dst_port#258,strsrc_ip_v6#259,strdst_ip_v6#260,src_port_v6#261,dst_port_v6#262,src_ip_area#263,dst_ip_area#264,proxy_type#265,proxy_address#266,proxy_provider#267,proxy_account#268,... 54 more fields] parquet
+               +- SubqueryAlias radius
+                  +- Aggregate [internet_ip#331, calling_station_id#338, port_range#332, capture_time#323L], [internet_ip#331, calling_station_id#338, cast(split(port_range#332, -)[0] as int) AS start_port#0, cast(split(port_range#332, -)[1] as int) AS end_port#1, capture_time#323L]
+                     +- Filter ((capture_day#367 = 2025-07-16) && (action#325 = Start))
+                        +- SubqueryAlias ods_mobilenet_radius_mobilis_store
+                           +- Relation[capture_time#323L,msg_type#324,action#325,user_name#326,nas_ip_address#327,nas_ipv6_address#328,nas_identifier#329,framed_ip_address#330,internet_ip#331,port_range#332,framed_ip_netmask#333,framed_ipv6_prefix#334,session_timeout#335,idle_timeout#336,called_station_id#337,calling_station_id#338,input_octets#339L,output_octets#340L,session_id#341,session_time#342,input_packets#343,output_packets#344,terminate_causes#345,input_gigawords#346L,... 22 more fields] parquet
+
+25/07/17 11:32:17 INFO AbstractConnector: Stopped Spark@4bf03fee{HTTP/1.1,[http/1.1]}{0.0.0.0:4050}
+25/07/17 11:32:17 INFO SparkUI: Stopped Spark web UI at http://bd-s2:4050
+25/07/17 11:32:17 INFO YarnClientSchedulerBackend: Interrupting monitor thread
+25/07/17 11:32:17 INFO YarnClientSchedulerBackend: Shutting down all executors
+25/07/17 11:32:17 INFO YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+25/07/17 11:32:17 INFO SchedulerExtensionServices: Stopping SchedulerExtensionServices
+(serviceOption=None,
+ services=List(),
+ started=false)
+25/07/17 11:32:17 INFO YarnClientSchedulerBackend: Stopped
+25/07/17 11:32:17 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+25/07/17 11:32:17 INFO MemoryStore: MemoryStore cleared
+25/07/17 11:32:17 INFO BlockManager: BlockManager stopped
+25/07/17 11:32:17 INFO BlockManagerMaster: BlockManagerMaster stopped
+25/07/17 11:32:17 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+25/07/17 11:32:17 INFO SparkContext: Successfully stopped SparkContext
+25/07/17 11:32:17 INFO ShutdownHookManager: Shutdown hook called
+25/07/17 11:32:17 INFO ShutdownHookManager: Deleting directory /tmp/spark-e211e87a-6554-4a5d-b308-4516432b9298
+25/07/17 11:32:17 INFO ShutdownHookManager: Deleting directory /tmp/spark-1cfd9612-e9bd-4fd7-90b8-63399f86d997
+25/07/17 11:32:17 WARN Utils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+Error in query: Table or view not found: `v64_deye_dw_ods`.`ods_pr_mail_store`; line 15 pos 62;
+'Aggregate [pr固网关联准确率 AS cal_type#1, 2025-07-16 AS cal_day#2, 00-23 AS cal_hour#3, 230215 AS uparea_id#4, 'SUM('IF(('auth_account = 'account), 1, 0)) AS connect_account#5, sum(cast(1 as bigint)) AS total_account#6L, ('SUM('IF(('auth_account = 'account), 1, 0)) / sum(cast(1 as bigint))) AS acc_rate#7]
++- 'Filter ('rn = 1)
+   +- 'SubqueryAlias tmp
+      +- 'Project ['pr.strsrc_ip, 'pr.auth_account, 'pr.capture_time, 'radius.account, dense_rank() windowspecdefinition('pr.strsrc_ip, 'pr.auth_account, 'pr.capture_time, ('pr.capture_time - 'radius.capture_time) ASC NULLS FIRST, specifiedwindowframe(RowFrame, unboundedpreceding$(), currentrow$())) AS rn#0]
+         +- 'Filter ('pr.capture_time >= 'radius.capture_time)
+            +- 'Join Inner, ('pr.strsrc_ip = 'radius.ip)
+               :- 'SubqueryAlias pr
+               :  +- 'Union
+               :     :- 'Union
+               :     :  :- Union
+               :     :  :  :- Project [strsrc_ip#21, auth_account#18, capture_time#95L]
+               :     :  :  :  +- Filter ((((capture_day#99 = 2025-07-16) && ((capture_hour#100 >= 00) && (capture_hour#100 <= 23))) && isnotnull(auth_account#18)) && (NOT (auth_account#18 = ) && (uparea_id#43 = 230215)))
+               :     :  :  :     +- SubqueryAlias ods_pr_http_store
+               :     :  :  :        +- Relation[data_type#12,data_source#13,protocol_type#14,child_type#15,action#16,auth_type#17,auth_account#18,username#19,password#20,strsrc_ip#21,strdst_ip#22,src_port#23,dst_port#24,strsrc_ip_v6#25,strdst_ip_v6#26,src_port_v6#27,dst_port_v6#28,src_ip_area#29,dst_ip_area#30,host#31,device_id#32,trace_id#33,proxy_type#34,proxy_address#35,... 65 more fields] parquet
+               :     :  :  +- Project [strsrc_ip#112, auth_account#107, capture_time#236L]
+               :     :  :     +- Filter ((((capture_day#241 = 2025-07-16) && ((capture_hour#242 >= 00) && (capture_hour#242 <= 23))) && isnotnull(auth_account#107)) && (NOT (auth_account#107 = ) && (uparea_id#186 = 230215)))
+               :     :  :        +- SubqueryAlias ods_pr_im_store
+               :     :  :           +- Relation[data_type#101,data_source#102,protocol_type#103,child_type#104,action#105,auth_type#106,auth_account#107,proxy_type#108,proxy_address#109,proxy_provider#110,proxy_account#111,strsrc_ip#112,strdst_ip#113,src_port#114,dst_port#115,strsrc_ip_v6#116,strdst_ip_v6#117,src_port_v6#118,dst_port_v6#119,src_ip_area#120,dst_ip_area#121,host#122,from_id#123,from_nickname#124,... 118 more fields] parquet
+               :     :  +- 'Project ['strsrc_ip, 'auth_account, 'capture_time]
+               :     :     +- 'Filter (((('capture_day = 2025-07-16) && (('capture_hour >= 00) && ('capture_hour <= 23))) && isnotnull('auth_account)) && (NOT ('auth_account = ) && ('uparea_id = 230215)))
+               :     :        +- 'UnresolvedRelation `v64_deye_dw_ods`.`ods_pr_mail_store`
+               :     +- Project [strsrc_ip#253, auth_account#249, capture_time#315L]
+               :        +- Filter ((((capture_day#319 = 2025-07-16) && ((capture_hour#320 >= 00) && (capture_hour#320 <= 23))) && isnotnull(auth_account#249)) && (NOT (auth_account#249 = ) && (uparea_id#272 = 230215)))
+               :           +- SubqueryAlias ods_pr_ftp_store
+               :              +- Relation[data_type#243,data_source#244,protocol_type#245,child_type#246,action#247,auth_type#248,auth_account#249,command#250,content#251,stream_end_time#252L,strsrc_ip#253,strdst_ip#254,src_port#255,dst_port#256,strsrc_ip_v6#257,strdst_ip_v6#258,src_port_v6#259,dst_port_v6#260,src_ip_area#261,dst_ip_area#262,proxy_type#263,proxy_address#264,proxy_provider#265,proxy_account#266,... 54 more fields] parquet
+               +- SubqueryAlias radius
+                  +- Project [ip#322, account#321, capture_time#326L]
+                     +- Filter ((capture_day#329 = 2025-07-16) && ACTION#323 IN (login,logout))
+                        +- SubqueryAlias ods_fixnet_radius_store
+                           +- Relation[account#321,ip#322,action#323,mac#324,session_id#325,capture_time#326L,insert_time#327L,data_id#328,capture_day#329,capture_hour#330] parquet
+
+25/07/17 11:32:17 INFO AbstractConnector: Stopped Spark@5e1a986c{HTTP/1.1,[http/1.1]}{0.0.0.0:4045}
+25/07/17 11:32:17 INFO SparkUI: Stopped Spark web UI at http://bd-s2:4045
+25/07/17 11:32:17 INFO YarnClientSchedulerBackend: Interrupting monitor thread
+25/07/17 11:32:17 INFO YarnClientSchedulerBackend: Shutting down all executors
+25/07/17 11:32:17 INFO YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+25/07/17 11:32:17 INFO SchedulerExtensionServices: Stopping SchedulerExtensionServices
+(serviceOption=None,
+ services=List(),
+ started=false)
+25/07/17 11:32:17 INFO YarnClientSchedulerBackend: Stopped
+25/07/17 11:32:17 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+25/07/17 11:32:18 INFO MemoryStore: MemoryStore cleared
+25/07/17 11:32:18 INFO BlockManager: BlockManager stopped
+25/07/17 11:32:18 INFO BlockManagerMaster: BlockManagerMaster stopped
+25/07/17 11:32:18 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+25/07/17 11:32:18 INFO SparkContext: Successfully stopped SparkContext
+25/07/17 11:32:18 INFO ShutdownHookManager: Shutdown hook called
+25/07/17 11:32:18 INFO ShutdownHookManager: Deleting directory /tmp/spark-7933e68d-faa0-4182-8db0-15155145d62e
+25/07/17 11:32:18 INFO ShutdownHookManager: Deleting directory /tmp/spark-21a49325-bdb5-4298-a1ee-d1f62b5202f8
+PR昨天关联准确度统计完成: 2025-07-16

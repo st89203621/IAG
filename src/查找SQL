@@ -1,0 +1,41 @@
+SELECT * from test_dw_ods.ods_nf_other_log_tmp_072207;
+
+
+SELECT user_name,count(distinct strsrc_ip ) as q
+from test_dw_ods.ods_nf_other_log_tmp_072207
+group by user_name
+order by q desc
+
+
+
+select dev_id, count(1) as q from test_dw_ods.ods_nf_other_log_tmp_072207
+group by dev_id
+order by q desc
+
+
+
+select *,DATE_FORMAT(from_unixtime(cast(capture_time / 1000 as bigint)), 'yyyy-MM-dd HH:mm:ss') as capture_date
+from v64_deye_dw_ods.ods_fixnet_radius_store ofrs
+where capture_day = '2025-07-22' and account = 'juf44251286' order by capture_time asc
+
+
+select user_name, strsrc_ip, src_port , strdst_ip,dst_port, dev_id,
+app_type ,app_name,DATE_FORMAT(from_unixtime(cast(capture_time / 1000 as bigint)), 'yyyy-MM-dd HH:mm:ss') as capture_date,   capture_time
+from test_dw_ods.ods_nf_other_log_tmp_071913
+where user_name = '023957429'
+order by capture_time asc
+
+
+select user_name, count(distinct strsrc_ip ) as q from test_dw_ods.ods_nf_other_log_tmp_071913
+group by user_name
+order by q desc
+
+select user_name, count(distinct dev_id) as q from test_dw_ods.ods_nf_other_log_tmp_071913
+group by user_name
+order by q desc
+
+
+
+select account, ip, action, session_id, mac,DATE_FORMAT(from_unixtime(cast(capture_time / 1000 as bigint)), 'yyyy-MM-dd HH:mm:ss') as captrue_date, capture_time from v64_deye_dw_ods.ods_fixnet_radius_store ofrs
+where capture_day in ('2025-07-18', '2025-07-19') and account  = '023957429'
+order by capture_time asc

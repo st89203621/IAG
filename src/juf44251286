@@ -1,0 +1,17 @@
+select *,DATE_FORMAT(from_unixtime(cast(capture_time / 1000 as bigint)), 'yyyy-MM-dd HH:mm:ss') as capture_date
+from v64_deye_dw_ods.ods_fixnet_radius_store ofrs
+where capture_day = '2025-07-22' and account = 'juf44251286' order by capture_time asc
+
+juf44251286	41.109.136.113	logout	24:91:bb:4e:a6:8f	SF9CTEQyMDcyMzMzNTY4MDAxODkxNjcxMmNBQUFiQVU=	1753147901844	1753147931000	1397149217256591378	2025-07-22	02	2025-07-22 02:31:41
+juf44251286	41.105.197.1	login	24:91:bb:4e:a6:8f	SF9CTEQyMDcyMzMzNTY4MDAxODk1NGIzMTVBQUFoU0c=	1753149265985	1753149274000	1397154849774850073	2025-07-22	02	2025-07-22 02:54:25
+
+
+select account, ip, action, session_id, mac,DATE_FORMAT(from_unixtime(cast(capture_time / 1000 as bigint)), 'yyyy-MM-dd HH:mm:ss') as captrue_date, capture_time from v64_deye_dw_ods.ods_fixnet_radius_store ofrs
+where capture_day in ('2025-07-21', '2025-07-22') and account  = 'juf44251286'
+order by capture_time asc
+
+
+juf44251286	154.248.198.14	logout	SF9CTEQyMDcyMzMzNTY4MDAxODliMWJkNTNBQUNOenc=	24:91:bb:4e:a6:8f	2025-07-21 18:29:33	1753118973602
+juf44251286	41.109.136.113	login	SF9CTEQyMDcyMzMzNTY4MDAxODkxNjcxMmNBQUFiQVU=	24:91:bb:4e:a6:8f	2025-07-21 18:30:08	1753119008832
+juf44251286	41.109.136.113	logout	SF9CTEQyMDcyMzMzNTY4MDAxODkxNjcxMmNBQUFiQVU=	24:91:bb:4e:a6:8f	2025-07-22 02:31:41	1753147901844
+juf44251286	41.105.197.1	login	SF9CTEQyMDcyMzMzNTY4MDAxODk1NGIzMTVBQUFoU0c=	24:91:bb:4e:a6:8f	2025-07-22 02:54:25	1753149265985
